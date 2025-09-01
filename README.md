@@ -11,7 +11,7 @@ This project contains a Cyber Risk Quantification (CRQ) agent designed to automa
 1.  **Clone the repository:**
     ```bash
     git clone <repository-url>
-    cd 14.012-crq-agent
+    cd crq-agent
     ```
 
 2.  **Create and activate a virtual environment:**
@@ -46,12 +46,10 @@ The agent will begin the CRQ process with a predefined scenario ("Start the CRQ 
 ## Project Structure
 
 -   `main.py`: The main entry point to run the CRQ agent.
--   `web.py`: (Placeholder) Intended for a future web interface.
--   `.env`: Contains the API keys and other secrets. (Ignored by Git).
 -   `.env.example`: An example file for the environment variables.
 -   `requirements.txt`: A list of all the Python libraries required for the project.
 -   `crq_agent/`: The core directory for the agent.
     -   `agent.py`: Defines the root agent and its main functionalities.
     -   `sub_agents/`: Contains specialized agents for different tasks within the CRQ workflow (e.g., vulnerability intelligence, risk scoping).
     -   `tools/`: Holds the tools and utilities the agent can use.
--   `Security Manifesto.md`: Outlines the security principles for the development of this agent.
+
